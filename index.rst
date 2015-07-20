@@ -145,3 +145,6 @@ URLは、http://python.org です。
 
 .. _top:
 
+
+:ref:`Topへ <top>`
+
