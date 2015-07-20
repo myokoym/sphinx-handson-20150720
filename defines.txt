@@ -1,0 +1,3 @@
+.. |CURRENT_VERSION|    replace:: 1.0.0
+.. |AWS_DEFAULT_REGION| replace:: us-west-2
+.. |ECS_CLUSTER_NAME|   replace:: sample-cluster

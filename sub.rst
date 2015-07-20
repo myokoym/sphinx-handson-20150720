@@ -7,3 +7,8 @@
 
 .. include:: ./usage-simple.txt
 
+
+.. include:: ./defines.txt
+
+- 現在のバージョンは\ |CURRENT_VERSION|\ です。
+
