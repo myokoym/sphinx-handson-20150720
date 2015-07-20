@@ -1,2 +1,6 @@
 コマンド:
 
+
+.. literalinclude:: ./_command.sh
+   :language: bash
+
