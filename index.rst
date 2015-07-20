@@ -71,3 +71,10 @@ URLは、http://python.org です。
 .. image:: sample.jpg
   :width: 360
 
+
+.. raw:: html
+
+  <p>
+    <a href="http://www.amazon.com/">link</a>
+  </p>
+
