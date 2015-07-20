@@ -67,3 +67,7 @@ URLは、http://python.org です。
 
 これは\ <b>リテラル</b>\ です。
 
+
+.. image:: sample.jpg
+  :width: 360
+
