@@ -99,3 +99,13 @@ URLは、http://python.org です。
   {
        key: "value"
   }
+
+.. table:: Truth table for "not"
+
+   =====  =====
+     A    not A
+   =====  =====
+   False  True
+   True   False
+   =====  =====
+
