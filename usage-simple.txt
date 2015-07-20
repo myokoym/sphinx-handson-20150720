@@ -4,3 +4,6 @@
 .. literalinclude:: ./_command.sh
    :language: bash
 
+
+.. include:: ./_result.template
+

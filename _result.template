@@ -1,0 +1,20 @@
+
+結果(例):
+
+.. parsed-literal::
+
+   {
+       "clusters": [
+         {
+             "status": "ACTIVE",
+             "clusterName": "\ |ECS_CLUSTER_NAME|\ ",
+             "registeredContainerInstancesCount": 0,
+             "pendingTasksCount": 0,
+             "runningTasksCount": 0,
+             "activeServicesCount": 0,
+             "clusterArn": "arn:aws:ecs:\ |AWS_DEFAULT_REGION|\ :XXXXXXXXXXXX:cluster/\ |ECS_CLUSTER_NAME|\ "
+         }
+       ],
+       "failures": []
+   }
+
