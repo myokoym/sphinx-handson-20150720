@@ -86,6 +86,23 @@
      --clusters <span class="si">${</span><span class="nv">ECS_CLUSTER_NAME</span><span class="si">}</span>
 </pre></div>
 </div>
+<p>結果(例):</p>
+<pre class="literal-block">
+{
+    &quot;clusters&quot;: [
+      {
+          &quot;status&quot;: &quot;ACTIVE&quot;,
+          &quot;clusterName&quot;: &quot;sample-cluster&quot;,
+          &quot;registeredContainerInstancesCount&quot;: 0,
+          &quot;pendingTasksCount&quot;: 0,
+          &quot;runningTasksCount&quot;: 0,
+          &quot;activeServicesCount&quot;: 0,
+          &quot;clusterArn&quot;: &quot;arn:aws:ecs:us-west-2:XXXXXXXXXXXX:cluster/sample-cluster&quot;
+      }
+    ],
+    &quot;failures&quot;: []
+}
+</pre>
 <ul class="simple">
 <li>現在のバージョンは1.0.0です。</li>
 </ul>
