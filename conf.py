@@ -282,3 +282,14 @@ texinfo_documents = [
 
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #texinfo_no_detailmenu = False
+
+# for HTML
+html_theme = 'bizstyle'
+html_title = project
+
+# for PDF
+language = 'ja'
+latex_docclass = {'manual': 'jsbook'}
+
+# define for replace
+today_fmt = '%Y-%m-%d'
