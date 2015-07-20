@@ -88,3 +88,14 @@ URLは、http://python.org です。
 
   これはヤバい!!
 
+
+.. code-block:: bash
+
+  #!/bin/sh
+  ENV=text
+
+.. code-block:: json
+
+  {
+       key: "value"
+  }
