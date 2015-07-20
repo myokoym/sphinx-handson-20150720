@@ -140,3 +140,6 @@ URLは、http://python.org です。
 
 .. contents::
 
+
+- :download:`テキストファイルのダウンロード <./download.txt>`
+
