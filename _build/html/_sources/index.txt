@@ -78,3 +78,13 @@ URLは、http://python.org です。
     <a href="http://www.amazon.com/">link</a>
   </p>
 
+
+.. note::
+
+  メモ書き
+
+
+.. warning::
+
+  これはヤバい!!
+
