@@ -1,14 +1,15 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<!doctype html>
 
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Welcome to Sphinx Handson (20150720)’s documentation! &mdash; Sphinx Handson (20150720) 1.0 ドキュメント</title>
+    <title>ハンズオンサンプル &mdash; Sphinx Handson (20150720)</title>
     
-    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bizstyle.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     
     <script type="text/javascript">
@@ -24,54 +25,33 @@
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <script type="text/javascript" src="_static/translations.js"></script>
-    <link rel="top" title="Sphinx Handson (20150720) 1.0 ドキュメント" href="#" />
-   
-  
-  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9">
-
+    <script type="text/javascript" src="_static/bizstyle.js"></script>
+    <link rel="top" title="Sphinx Handson (20150720)" href="#" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="_static/css3-mediaqueries.js"></script>
+    <![endif]-->
   </head>
-  <body role="document">  
-
-    <div class="document">
-      <div class="documentwrapper">
-        <div class="bodywrapper">
-          <div class="body" role="main">
-            
-  <div class="section" id="welcome-to-sphinx-handson-20150720-s-documentation">
-<h1>Welcome to Sphinx Handson (20150720)&#8217;s documentation!<a class="headerlink" href="#welcome-to-sphinx-handson-20150720-s-documentation" title="このヘッドラインへのパーマリンク">¶</a></h1>
-<p>Contents:</p>
-<div class="toctree-wrapper compound">
-<ul class="simple">
-</ul>
-</div>
-</div>
-<div class="section" id="indices-and-tables">
-<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="このヘッドラインへのパーマリンク">¶</a></h1>
-<ul class="simple">
-<li><a class="reference internal" href="genindex.html"><span>索引</span></a></li>
-<li><a class="reference internal" href="py-modindex.html"><span>モジュール索引</span></a></li>
-<li><a class="reference internal" href="search.html"><span>検索ページ</span></a></li>
-</ul>
-</div>
-
-
-          </div>
-        </div>
-      </div>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             accesskey="I">索引</a></li>
+        <li class="nav-item nav-item-0"><a href="#">Sphinx Handson (20150720)</a> &raquo;</li> 
+      </ul>
+    </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
   <h3><a href="#">目次</a></h3>
   <ul>
-<li><a class="reference internal" href="#">Welcome to Sphinx Handson (20150720)&#8217;s documentation!</a></li>
-<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+<li><a class="reference internal" href="#">ハンズオンサンプル</a><ul>
+<li><a class="reference internal" href="#id2">基本的なマークアップ</a></li>
 </ul>
-<div class="relations">
-<h3>Related Topics</h3>
-<ul>
-  <li><a href="#">Documentation overview</a><ul>
-  </ul></li>
+</li>
 </ul>
-</div>
+
   <div role="note" aria-label="source link">
     <h3>このページ</h3>
     <ul class="this-page-menu">
@@ -94,22 +74,82 @@
 <script type="text/javascript">$('#searchbox').show(0);</script>
         </div>
       </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="id1">
+<h1>ハンズオンサンプル<a class="headerlink" href="#id1" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<div class="section" id="id2">
+<h2>基本的なマークアップ<a class="headerlink" href="#id2" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>いくつかSphinxのサンプルを記述していきます。
+まずは基本的なマークアップから。</p>
+<ul class="simple">
+<li>リストA</li>
+<li>リストB<ul>
+<li>リストB.a</li>
+</ul>
+</li>
+<li>リストC</li>
+</ul>
+<ol class="arabic simple" start="2">
+<li>2番目から初めてもよい。</li>
+<li>3番目です。</li>
+</ol>
+<blockquote>
+<div>3.1. 枝番</div></blockquote>
+<ol class="arabic simple" start="4">
+<li>4番目です。</li>
+</ol>
+<dl class="docutils">
+<dt>AWS</dt>
+<dd>Amazonが提供しているクラウドコンピューティングサービス</dd>
+<dt>EC2</dt>
+<dd>Elastic Cloud Computingの略</dd>
+</dl>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">日時:</th><td class="field-body">2015-07-20 13:00 - 14:00</td>
+</tr>
+<tr class="field-even field"><th class="field-name">場所:</th><td class="field-body">茅場町</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">参加者:</th><td class="field-body">Hatano</td>
+</tr>
+</tbody>
+</table>
+<p>コマンド:</p>
+<div class="highlight-python"><div class="highlight"><pre>ls ~
+</pre></div>
+</div>
+<p>結果(例):</p>
+<div class="highlight-python"><div class="highlight"><pre>.exrc
+</pre></div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
       <div class="clearer"></div>
     </div>
-    <div class="footer">
-      &copy;2015, Masafumi Yokoyama <myokoym@gmail.com>.
-      
-      |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.3.1</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.6</a>
-      
-      |
-      <a href="_sources/index.txt"
-          rel="nofollow">Page source</a>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             >索引</a></li>
+        <li class="nav-item nav-item-0"><a href="#">Sphinx Handson (20150720)</a> &raquo;</li> 
+      </ul>
     </div>
-
-    
-
-    
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2015, Masafumi Yokoyama &lt;myokoym@gmail.com&gt;.
+      このドキュメントは <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.1 で生成しました。
+    </div>
   </body>
 </html>
